@@ -9,7 +9,7 @@ This directory contains the scripts for getting the data for rq1, includes loggi
 How to run this script:
 
 1. Install postgresql and python 3.6+.
-2. Install libraries listed in [requirements](../RQ2/mstracker/requirements.txt).
+2. Install libraries listed in [requirements](https://github.com/senseconcordia/TestLoggingPractice/blob/main/RQ2/mstracker/requirements.txt).
 3. Install cloc and srcML.
 4. Configure the database settings in config.py.
 5. Run clone_and_save_project.py to initilize the database.
