@@ -6,7 +6,7 @@ from utils import cliffsDelta
 # used to mann u test the log densities at file level
 
 
-file_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/file.csv")
+file_csv = pd.read_csv("path_to_file.csv")
 all_subject_list = file_csv["repo_fk"].to_list()
 unique_subject_list = list(dict.fromkeys(all_subject_list))
 

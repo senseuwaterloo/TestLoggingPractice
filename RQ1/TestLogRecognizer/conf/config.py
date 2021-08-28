@@ -22,6 +22,6 @@ def get_cloc_command():
     # Execute on omen or xishi
     else:
         # need to change based on your configuration of cloc
-        cloc_command = "/home/users/hzhang/project/library/cloc-1.84/cloc"
+        cloc_command = "path_to_cloc"
 
     return cloc_command

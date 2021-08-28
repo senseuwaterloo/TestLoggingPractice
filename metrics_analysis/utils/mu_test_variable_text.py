@@ -5,7 +5,7 @@ from scipy.stats import mannwhitneyu
 
 from utils import cliffsDelta
 
-log_csv = pd.read_csv('/Users/holen/Downloads/log_variable_update.csv')
+log_csv = pd.read_csv('path_to_log_variable_update.csv')
 # verbosity_list = ["INFO", "WARN", "TRACE", "ERROR", "DEBUG"]
 info_log_df = log_csv[log_csv["verbosity_type"] == "INFO"]
 warn_log_df = log_csv[log_csv["verbosity_type"] == "WARN"]
