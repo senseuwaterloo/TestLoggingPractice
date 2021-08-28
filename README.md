@@ -32,7 +32,7 @@ How to run this script:
 
 ## RQ3
 
-This directory contains the data regarding the firehouse email survey and the result of labelling of two of the researchers.
+This directory contains the data regarding the firehouse email survey and the classification of the reasons that developers use test logging.
 
 ## RQ4
 
