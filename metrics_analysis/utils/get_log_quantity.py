@@ -5,9 +5,9 @@ import pandas as pd
 
 # calculate log number
 
-repo_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_repository.csv")
-commit_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_commit.csv")
-log_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_log.csv")
+repo_csv = pd.read_csv("path_to_ms_repository.csv")
+commit_csv = pd.read_csv("path_to_ms_commit.csv")
+log_csv = pd.read_csv("path_to_ms_log.csv")
 
 log_call_df = log_csv[log_csv["call_type"] == "LOG_CALL"]
 print_call_df = log_csv[log_csv["call_type"] == "PRINT_CALL"]

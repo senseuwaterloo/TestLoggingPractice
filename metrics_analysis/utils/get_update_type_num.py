@@ -1,6 +1,6 @@
 import pandas as pd
 
-log_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_log.csv")
+log_csv = pd.read_csv("path_to_ms_log.csv")
 
 log_call_df = log_csv[log_csv["call_type"] == "LOG_CALL"]
 print_call_df = log_csv[log_csv["call_type"] == "PRINT_CALL"]

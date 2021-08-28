@@ -2,8 +2,8 @@ import pandas as pd
 
 # get commits number with log change
 
-repo_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_repository.csv")
-commit_csv = pd.read_csv("/Users/holen/Desktop/ms_db_data/ms_commit.csv")
+repo_csv = pd.read_csv("path_to_ms_repository.csv")
+commit_csv = pd.read_csv("path_to_ms_commit.csv")
 
 repo_id_list = repo_csv["id"].to_list()
 

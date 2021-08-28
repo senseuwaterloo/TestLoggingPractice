@@ -7,7 +7,7 @@ from collections import Counter
 
 
 def sample_one_log_per_file():
-    log_csv = pd.read_csv('../docs/test_logs_v3.csv')
+    log_csv = pd.read_csv('test_logs_v3.csv')
     log_files = log_csv['file_path'].to_list()
     unique_file_list = list(Counter(log_files).keys())
     per_sample_for_all_files = []

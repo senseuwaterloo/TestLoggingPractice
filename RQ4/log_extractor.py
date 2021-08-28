@@ -126,7 +126,7 @@ def get_tomcat_txt(subject_path: str):
 
 
 if __name__ == "__main__":
-    folder = '/Users/holen/DegreeProject/mstracker-RQ3'
+    folder = 'folder_of_the_repo_with_tests_executed'
     valid_subjects = ["activemq-master", "xmlgraphics-fop-trunk", "hadoop-trunk", "hbase-master", "hive-master",
                       "karaf-master", "openmeetings-master", "pig-trunk", "struts-master", "tomcat-master",
                       "zookeeper-master"]
@@ -150,7 +150,7 @@ if __name__ == "__main__":
     # util test included 1595574
     # only in the test indicated in the test name: 691310
 
-    file = open('../docs/test_logs_v3.csv', 'w', newline='')
+    file = open('test_logs_v3.csv', 'w', newline='')
     with file:
         # identifying header
         header = ['subject', 'file_path', 'line_number', 'content']

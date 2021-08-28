@@ -10,8 +10,8 @@ class Log(BaseModel):
     verbosity_type = CharField(null=True)
     argument_type = CharField(null=True)
     variable_number = IntegerField(null=True)
-    # added for calculate variable number
-    text_length = IntegerField(null=True)
+    # added for calculate variable number, comment out for calculate variable and text length
+    # text_length = IntegerField(null=True)
 
 
 class LogArgumentType(object):

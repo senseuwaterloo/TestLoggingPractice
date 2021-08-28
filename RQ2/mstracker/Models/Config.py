@@ -1,6 +1,6 @@
 import platform
 
-MSTRACKER_PROJECT_PATH = "/Users/holen/DegreeProject/VCS/mstracker_update/"
+MSTRACKER_PROJECT_PATH = "clone_repositories_to_this_path"
 LEVENSHTEIN_RATIO_THRESHOLD = 0.5
 
 # Detect type
@@ -8,8 +8,8 @@ DETECT_UPDATE = 'detect_update'
 DETECT_ALL = 'detect_all'
 
 # Database
-DB_NAME = 'added_log_20210118'
-DB_USER = 'holen'
+DB_NAME = 'DB_NAME'
+DB_USER = 'DB_USER'
 DB_PASSWORD = ''
 DB_HOST = 'localhost'
 DB_PORT = 5432
@@ -27,6 +27,6 @@ def get_cloc_command():
         cloc_command = "cloc"
     # Execute on omen or xishi
     else:
-        cloc_command = "/home/users/hzhang/project/library/cloc-1.84/cloc"
+        cloc_command = "cloc_path_based_on_your_configuration"
 
     return cloc_command
