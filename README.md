@@ -10,10 +10,11 @@ How to run this script:
 
 1. Install postgresql and python 3.6+.
 2. Install libraries listed in [requirements](https://github.com/senseconcordia/TestLoggingPractice/blob/main/RQ2/mstracker/requirements.txt).
-3. Install cloc and srcML.
-4. Configure the database settings in config.py.
-5. Run clone_and_save_project.py to initilize the database.
-6. Run main.py to get log numbers per file, run log_util.py to get details about the dynamic variable numbers and static text lengths of the logging statements (you need to comment and comment out some source code lines indicated in file.py and log.py).
+3. Install [cloc](https://github.com/AlDanial/cloc) and [srcML](https://www.srcml.org/).
+4. Download the studied subjects (source code in head) to local.
+5. Configure the database settings in config.py.
+6. Run clone_and_save_project.py to initilize the database.
+7. Run main.py to get log numbers per file, run log_util.py to get details about the dynamic variable numbers and static text lengths of the logging statements (you need to comment and comment out some source code lines indicated in file.py and log.py).
 
 ## RQ2
 
@@ -23,7 +24,7 @@ How to run this script:
 
 1. Install postgresql and python 3.6+.
 2. Install libraries listed in requirements.txt.
-3. Install cloc and srcML.
+3. Install [cloc](https://github.com/AlDanial/cloc) and [srcML](https://www.srcml.org/).
 4. Clone the studied repositories to a local path.
 5. Configure the database settings in config.py.
 6. Run clone_and_save_project.py to initilize the database.
